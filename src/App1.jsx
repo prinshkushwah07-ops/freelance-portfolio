@@ -304,7 +304,7 @@ function App1() {
                   Direct Line
                 </p>
                 <p className="text-2xl font-black text-white tracking-wide">
-                  +91 96855 35001
+                  +91 73896 86959
                 </p>
                 <p className="text-sm text-gray-400 mt-1 font-medium">
                   prinshkushwah07@gmail.com
@@ -312,7 +312,7 @@ function App1() {
               </div>
               <div className="mt-auto flex flex-col gap-3">
                 <a
-                  href="https://wa.me/919685535001?text=Hi%20Priya,%20I%20have%20a%20project%20query"
+                  href="https://wa.me/917389686959?text=Hi%20Priya,%20I%20have%20a%20project%20query"
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center justify-center gap-2 bg-[#25D366] text-white font-bold py-3.5 rounded-xl hover:bg-[#1fae54] transition-all"
