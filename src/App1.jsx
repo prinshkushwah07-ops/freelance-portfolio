@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 function App1() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -130,7 +130,6 @@ function App1() {
             website looks premium and works flawlessly on every device.
           </p>
 
-          {/* BUSINESS LOGIC IN ENGLISH */}
           <div className="mt-10 p-8 rounded-2xl bg-[#0a0f1d] border border-purple-500/20">
             <h3 className="text-teal-400 font-bold mb-4 uppercase tracking-widest text-sm">
               Business Logic for Growth
@@ -203,41 +202,53 @@ function App1() {
         </div>
       </section>
 
-      {/* PROJECTS */}
+      {/* PROJECTS SECTION - (UPDATED DESIGNS) */}
       <section id="projects" className="relative px-6 lg:px-24 pb-32 z-10">
         <h2 className="text-3xl font-bold text-white mb-12">
           Examples of My Work
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="group bg-slate-800/40 p-8 rounded-3xl border border-white/5 hover:border-purple-500/50 transition-all">
-            <div className="bg-slate-900/50 h-48 rounded-xl mb-6 flex items-center justify-center text-6xl">
-              🏨
+          
+          {/* Project 1: The Royal Hotel */}
+          <div className="group bg-slate-800/40 p-8 rounded-3xl border border-white/5 hover:border-purple-500/50 transition-all duration-300">
+            <div className="bg-slate-900/50 h-48 rounded-xl mb-6 flex items-center justify-center overflow-hidden">
+              <span className="text-6xl group-hover:scale-110 transition-transform duration-500 drop-shadow-2xl">👑</span>
             </div>
-            <h3 className="text-2xl font-bold text-white mb-2">
-              Hotel Booking System
+            <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-purple-400 transition-colors">
+              The Royal Hotel
             </h3>
             <p className="text-teal-400 text-sm font-semibold mb-3">
-              Solved: Manual entry & double bookings
+              Solved: Role-based dashboards & premium UI
             </p>
-            <p className="text-gray-400 text-sm">
-              A seamless interface for room availability and management.
+            <p className="text-gray-400 text-sm mb-5 leading-relaxed">
+              A dual-interface React application featuring a luxury dark-mode landing page and clean, modern portals for both guests and admin staff.
             </p>
-          </div>
-          <div className="group bg-slate-800/40 p-8 rounded-3xl border border-white/5 hover:border-teal-500/50 transition-all">
-            <div className="bg-slate-900/50 h-48 rounded-xl mb-6 flex items-center justify-center text-6xl">
-              🧘‍♂️
+            <div className="flex gap-2 text-xs font-semibold text-purple-300">
+              <span className="bg-purple-500/10 px-3 py-1 rounded-full border border-purple-500/20">React.js</span>
+              <span className="bg-purple-500/10 px-3 py-1 rounded-full border border-purple-500/20">Tailwind</span>
             </div>
-            <h3 className="text-2xl font-bold text-white mb-2">
+          </div>
+
+          {/* Project 2: Spiritual Yoga Classes */}
+          <div className="group bg-slate-800/40 p-8 rounded-3xl border border-white/5 hover:border-teal-500/50 transition-all duration-300">
+            <div className="bg-slate-900/50 h-48 rounded-xl mb-6 flex items-center justify-center overflow-hidden">
+              <span className="text-6xl group-hover:scale-110 transition-transform duration-500">🧘‍♂️</span>
+            </div>
+            <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-teal-400 transition-colors">
               Spiritual Yoga Classes
             </h3>
-            <p className="text-teal-400 text-sm font-semibold mb-3">
+            <p className="text-purple-400 text-sm font-semibold mb-3">
               Solved: Low walk-in leads
             </p>
-            <p className="text-gray-400 text-sm">
-              Created an attractive webpage featuring a '3 Days Demo Free'
-              system to capture daily leads.
+            <p className="text-gray-400 text-sm mb-5 leading-relaxed">
+              Created an attractive webpage featuring a '3 Days Demo Free' system to capture daily leads and increase offline visits.
             </p>
+            <div className="flex gap-2 text-xs font-semibold text-teal-300">
+              <span className="bg-teal-500/10 px-3 py-1 rounded-full border border-teal-500/20">HTML/CSS</span>
+              <span className="bg-teal-500/10 px-3 py-1 rounded-full border border-teal-500/20">JS</span>
+            </div>
           </div>
+
         </div>
       </section>
 
