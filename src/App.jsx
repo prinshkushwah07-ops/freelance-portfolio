@@ -68,20 +68,28 @@ function App() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           
           {/* Project 1 */}
-          <div className="group bg-slate-800/40 backdrop-blur-sm p-8 rounded-3xl border border-white/5 hover:border-cyan-500/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_10px_40px_-15px_rgba(6,182,212,0.4)]">
-            <div className="bg-slate-900/50 h-40 rounded-xl mb-6 flex items-center justify-center border border-white/5 overflow-hidden">
-               <span className="text-5xl group-hover:scale-110 transition-transform duration-500">🏨</span>
-            </div>
-            <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-cyan-400 transition-colors">Hotel Management UI</h3>
-            <p className="text-gray-400 text-sm mb-4 leading-relaxed">
-              A dynamic, fully responsive interface for seamless hotel bookings and backend data management.
-            </p>
-            <div className="flex gap-2 text-xs font-semibold text-cyan-300">
-              <span className="bg-cyan-500/10 px-3 py-1 rounded-full">React</span>
-              <span className="bg-cyan-500/10 px-3 py-1 rounded-full">Tailwind</span>
-              <span className="bg-cyan-500/10 px-3 py-1 rounded-full">Java</span>
-            </div>
-          </div>
+          {/* The Royal Hotel Project Card */}
+<div className="bg-[#111827] border border-slate-800 rounded-2xl overflow-hidden max-w-md hover:border-slate-700 transition-all cursor-pointer">
+  
+  {/* Icon / Image Section */}
+  <div className="bg-[#0f172a] h-48 flex items-center justify-center">
+    <span className="text-6xl drop-shadow-2xl hover:scale-110 transition-transform">👑</span>
+  </div>
+
+  {/* Content Section */}
+  <div className="p-6">
+    <h3 className="text-2xl font-bold text-white mb-2">The Royal - Luxury Hotel System</h3>
+    
+    <p className="text-teal-400 text-sm font-semibold tracking-wide mb-4">
+      Solved: Role-based dashboards & premium UI/UX
+    </p>
+    
+    <p className="text-slate-400 text-sm leading-relaxed">
+      A dual-interface React application featuring a luxury dark-mode landing page and clean, modern portals for both guests and admin staff.
+    </p>
+  </div>
+
+</div>
 
           {/* Project 2 */}
           <div className="group bg-slate-800/40 backdrop-blur-sm p-8 rounded-3xl border border-white/5 hover:border-blue-500/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_10px_40px_-15px_rgba(59,130,246,0.4)]">
